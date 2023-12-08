@@ -74,11 +74,82 @@ let x =10;
 console.log(~x);//-11
 
 let a=100;
-console.log(~a);-101*/
+console.log(~a);-101
 
 //11. Execute the code below
 let x =10;
 let y = 6;
-console.log(x|y);
+console.log(x|y);//41
 
-let 
+let a =100;
+let b =50;
+console.log(a|b);//118
+
+//12. Execute the code below
+let x =10;
+let y =-6;
+console.log(x&y); //10
+
+let a=100;
+let b=50;
+console.log(a&b);//32
+
+//13. Same again with different logic
+let x = 10;
+let y =-6;
+console.log(x^y);//-16
+
+let a=100;
+let b =50;
+console.log(a^b);//88
+
+// 14. >>> operator examples 
+let x=10;
+console.log(x>>>2);//2
+
+let a=-10;
+console.log(a>>>2);//1073741 
+
+//15. check the output of all the logics 
+console.log(4/3);//1.333
+console.log(4/5);//0.8
+console.log(4.0/3);//1.3333
+console.log(4%3);//1
+console.log(-4%3);//-1
+console.log(-4%-3);//-1
+console.log(4%-3);//1
+console.log(0.4 % 0.2);//0 
+
+//16. check for operators 
+let i=10;
+let j=20;
+
+console.log(i<j);//true
+console.log(i>j);//false
+console.log(i!=j);//true
+console.log(i==j);//false
+
+let i=1.1;
+let j=2.2;
+
+console.log(i<j);
+console.log(i>j);
+console.log(i!=j);
+console.log(i==j);
+
+//17. boolean operations
+let a= true;
+let b= false;
+
+console.log(a&&b);//false
+console.log(a||b);//true
+
+console.log(a&b); //0
+console.log(a|b);//1
+console.log(a^b);//1 
+
+//19. 2's compliment 
+let i=-1>>>1;
+let j=1;
+let r =i+j;
+console.log(r);//2147483648 */
